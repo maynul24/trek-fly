@@ -1,4 +1,5 @@
 @media screen and (max-width:600px) {
+    /* header Section */
     .container{
         width: 100%;
         max-width: 600px;
@@ -42,6 +43,32 @@
 }
     .banner-form input, select, button{
         width: 100%;
+}
+/* Popular Tour Section */
+.popular-tour{
+    margin: 24px 0;
+}
+
+.popular-tour-wrapper{
+    flex-direction: column;
+    gap: 24px;
+}
+
+.popular-tour-content h2{
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.popular-tour-content p{
+    margin-bottom: 16px;
+}
+.popular-tour-content li{
+    margin-bottom: 12px;
+
+}
+
+.popular-tour-content button{
+    width: 174px;
 }
 
 }
