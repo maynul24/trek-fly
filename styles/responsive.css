@@ -71,4 +71,18 @@
     width: 174px;
 }
 
+/* Newsletter */
+
+.newsletter-wrapper{
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
 }

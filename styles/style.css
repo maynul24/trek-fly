@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
 }
 
 .container{
@@ -167,10 +168,6 @@ font-weight: 400;
 
 }
 
-.popular-tour-image img{
-
-}
-
 
 /* Destination Section Styles */
 .destination-section{
@@ -182,9 +179,10 @@ font-weight: 400;
     margin-bottom: 48px;   
 }
 
-.destination-images{
+.image-row{
     display: flex;
-    flex-wrap:wrap ;
+    gap: 24px;
+    padding-bottom: 24px;
 }
 
 .destination-name{
@@ -211,3 +209,138 @@ font-weight: 400;
 }
 
 
+/* Choose us Section styles */
+.card{
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+text-align: left;
+appearance: none;
+padding: 32px;
+}
+
+.card h3{
+    color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.card p{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+
+.card-row,.card-row-2{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.card-row-2 .card{
+    margin: 0 298px;
+}
+
+
+
+/* Newsletter Section Styles */
+
+.newsletter{
+    width: 100%;
+    margin: 100px 0;
+}
+
+.newsletter-wrapper{
+   display: flex;
+   gap: 24px;
+}
+
+.subscription-form{
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.form-content h2{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.form-content p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.subscription-form hr{
+    background: rgba(19, 19, 24, 0.10);
+    margin: 24px 0;
+}
+
+.form-input{
+    display: grid;
+}
+
+.form-input input{
+    border: 0;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 16px 20px;
+    background: rgba(19, 19, 24, 0.05);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.form-input input:focus{
+    outline: none;
+}
+
+.subscribe-button{
+    width: 100%;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 14px 0;
+}
+
+.promo-banner{
+    position: relative;
+}
+
+.sticker{
+    width: 324px;
+    height: 120px;
+    border-radius: 16px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    position: absolute;
+    transform: rotate(-19.628deg);
+    top: 50%;
+    left: 50%;
+
+}
+
+.sticker p{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.sticker h3{
+font-size: 32px;
+font-weight: 800;
+}
