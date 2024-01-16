@@ -71,6 +71,11 @@
     width: 174px;
 }
 
+/* destination */
+.image-row{
+    flex-direction: column;
+}
+
 /* Newsletter */
 
 .newsletter-wrapper{
