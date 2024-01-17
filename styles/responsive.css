@@ -77,18 +77,44 @@
 }
 
 /* Newsletter */
-
+.newsletter{
+    margin: 24px 0;
+}
 .newsletter-wrapper{
     flex-direction: column;
 }
 
+.subscription-form{
+    width: 100%;
+}
+
+.sticker{
+    width: 214px;
+    height: 79px;
+    transform: rotate(-19.628deg);
+    top: 64%;
+    left: 60%;
+}
+
+.sticker p{
+    margin-top: ;
+    font-size: 15px;
+    margin-bottom: ;
+}
+
+.sticker h3{
+font-size: 21px;
+margin-bottom: 5px;
+}
 
 /* footer Section */
 .footer{
     width: 100%;
     padding: 0 44px;
 }
-
+.footer-content{
+    padding-top: 32px;
+}
 .footer-content p{
     margin: 16px 0;
 }
