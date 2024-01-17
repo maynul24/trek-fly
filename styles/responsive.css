@@ -72,8 +72,44 @@
 }
 
 /* destination */
+.destination-section{
+    width: 100%;
+    margin: 24px 0;
+
+}
+
+.destination-content h2{
+    font-size: 20px;
+    margin-bottom:16px ;
+}
+
+.destination-content p{
+    font-size: 14px;
+    margin-bottom:16px;
+}
+
 .image-row{
     flex-direction: column;
+}
+
+/* why Choose Us */
+.service-cards{
+    display: inline-block;
+}
+
+.card-items{
+    margin-bottom: 20px;
+}
+
+.card-items h3{
+    font-size: 20px;
+}
+
+.card-items p{
+    font-size: 14px;
+}
+.item-3{
+    margin:0;
 }
 
 /* Newsletter */
