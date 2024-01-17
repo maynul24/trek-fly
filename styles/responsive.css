@@ -130,6 +130,17 @@
 height: 52px;
 }
 
+/* Testimonial */
+.testimonial-section{
+    margin-top: 24px;
+}
+
+.testimonial-content h2{
+    margin-bottom: 10px;
+}
+.testimonial-wrapper{
+   flex-direction: column;
+}
 
 /* Newsletter */
 .newsletter{
