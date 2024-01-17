@@ -112,6 +112,25 @@
     margin:0;
 }
 
+/* perfect-place */
+
+.perfect-place{
+    margin-top: 24px;
+}
+.perfect-place-wrapper{
+ flex-direction: column;
+}
+
+.perfect-place-content{
+    width: 100%;
+}
+
+.perfect-place-button{
+    width: 174px;
+height: 52px;
+}
+
+
 /* Newsletter */
 .newsletter{
     margin: 24px 0;
